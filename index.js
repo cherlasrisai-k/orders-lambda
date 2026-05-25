@@ -73,7 +73,7 @@ let {
                         }
                     })
                 );
-
+            console.log("Get Request");
             return response(
                 200,
                 {
