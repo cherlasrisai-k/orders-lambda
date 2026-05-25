@@ -108,7 +108,7 @@ let {
 
                 product
             };
-
+            console.log("Put Request");
             await docClient.send(
                 new PutCommand({
 
