@@ -7,7 +7,7 @@ const {
     PutCommand,
     QueryCommand
 } = require("@aws-sdk/lib-dynamodb");
-
+    
 console.log("Lambda initialized");
 
 //Dynamodb 
@@ -160,7 +160,7 @@ function response(
     statusCode,
     body
 ) {
-
+    console.log("Response");
     return {
 
         statusCode,
